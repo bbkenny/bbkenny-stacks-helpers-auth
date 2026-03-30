@@ -1,0 +1,44 @@
+{
+  "name": "bbkenny-stacks-helpers-auth",
+  "version": "1.0.0",
+  "description": "Wallet connection, signing, and session management for Stacks L2",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@stacks/wallet-sdk": "^7.2.0",
+    "@stacks/transactions": "^7.2.0",
+    "@stacks/network": "^7.2.0",
+    "@stacks/auth": "^7.2.0",
+    "richiey1-stacks-helpers-types": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "stacks",
+    "bitcoin",
+    "l2",
+    "blockchain",
+    "auth"
+  ],
+  "author": "bbkenny",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChainLab-X/stacks-helpers-auth",
+    "directory": "packages/auth"
+  },
+  "bugs": {
+    "url": "https://github.com/ChainLab-X/stacks-helpers-auth/issues"
+  },
+  "homepage": "https://github.com/ChainLab-X/stacks-helpers-auth#readme"
+}
