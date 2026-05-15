@@ -1,5 +1,5 @@
-import { API_URLS } from "stacks-types-sdk";
-import type { NonceInfo } from "stacks-types-sdk";
+import { API_URLS } from "cest-types-sdk";
+import type { NonceInfo } from "cest-types-sdk";
 
 export async function getNonce(
   address: string,
