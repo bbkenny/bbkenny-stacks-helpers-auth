@@ -1,5 +1,5 @@
 import { generateWallet, getStxAddress, generateNewAccount } from "@stacks/wallet-sdk";
-import type { WalletAccount } from "richiey1-stacks-helpers-types";
+import type { WalletAccount } from "stacks-types-sdk";
 
 export async function deriveAccounts(
   mnemonic: string,
